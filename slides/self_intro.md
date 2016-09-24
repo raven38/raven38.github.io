@@ -49,3 +49,5 @@ created by  Kai Katsumata (@raven_38_)
 * パーソナルアシスタント
 
 ---
+
+## ご清聴感謝
