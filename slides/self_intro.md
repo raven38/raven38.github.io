@@ -1,6 +1,6 @@
 # 自己紹介
 
-created by  Kai Katsumata (@raven_38_)
+created by  Kai Katsumata (@raven__38__)
 
 
 ---
