@@ -50,4 +50,4 @@ created by  Kai Katsumata (@raven_38_)
 
 ---
 
-## ご清聴感謝
+# ご清聴感謝
