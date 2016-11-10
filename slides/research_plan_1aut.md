@@ -1,6 +1,6 @@
 # 研究プラン 1秋
 
-raven
+created by raven(Kai Katsumata)
 
 ---
 
