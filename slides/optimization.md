@@ -6,16 +6,6 @@ created by raven(SL)
 
 ---
 
-## お前誰？
-
-* raven (B4)
-* Twitter: @raven_38_
-* 副業:BigdataでDeep Learning, GPUのデバドラ
-* 趣味：人のお金で海外旅行
-
----
-
-
 ## みなさんSLって知っていますか？
 
 ---
