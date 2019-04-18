@@ -43,6 +43,30 @@ gcc -Ofast hoge.cpp -o hoge.out
 
 ---
 
+実際には？
+
+```
+-fauto-inc-dec 
+-fbranch-count-reg 
+-fcombine-stack-adjustments 
+-fcompare-elim 
+-fcprop-registers 
+-fdce 
+-fdefer-pop 
+-fdelayed-branch 
+-fdse 
+-fforward-propagate 
+-fguess-branch-probability 
+-fif-conversion 
+-fif-conversion2 
+-finline-functions-called-once 
+-fipa-profile 
+-fipa-pure-const 
+-fipa-reference 
+-fipa-reference-addressable 
+-fmerge-constants
+```
+
 ```
 $ gcc-8 -O3 -Q --help=optimize | wc -l
 242
