@@ -32,7 +32,7 @@ sudo chflags nohidden /Volumes
 # ブート時のサウンドを無効化する
 sudo nvram SystemAudioVolume=" "
 # 時計アイコンクリック時に OS やホスト名 IP を表示する
-sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+# sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 # ファイルを開くときのアニメーションを無効にする
 defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
 # ツールチップ表示までのタイムラグをなくす
@@ -175,7 +175,17 @@ defaults -currentHost write -g com.apple.keyboard.modifiermapping.${keyboard_id}
 </dict>
 "
 
+
+# Security
+## ファイアウォールon
+sudo defaults write /Library/Preferences/com.Apple.alf globalstate -int 1
+
+# Others
+## GoogleのパブリックDNSを使用する
+networksetup -setdnsservers Wi-Fi 2001:4860:4860::8844 2001:4860:4860::8888 8.8.4.4 8.8.8.8
+
 echo "done"
  
 echo "Next step is download dotfiles from Github and restore them"
 echo "Firefox usercss for tree tab"
+echo "LaTeX setup"
