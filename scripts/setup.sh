@@ -8,7 +8,7 @@ xcode-select --install
 if [ ! -x "`which brew`" ]; then
   echo "start install and update brew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  echo ‘eval “$(/opt/homebrew/bin/brew shellenv)”‘ >> /Users/raven/.zprofile 
+  echo 'eval “$(/opt/homebrew/bin/brew shellenv)”' >> /Users/raven/.zprofile 
   source ~/.zprofile
   brew update
   brew upgrade
@@ -63,6 +63,8 @@ defaults write com.apple.CrashReporter DialogType -string "none"
 # USB やネットワークストレージに .DS_Store ファイルを作成しない
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+# Dock が消す
+defaults write com.apple.dock autohide -bool true
 # Dock が表示されるまでの待ち時間を無効にする
 defaults write com.apple.dock autohide-delay -float 0
 # Mission Control を使用不可にする
