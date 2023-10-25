@@ -145,14 +145,20 @@ defaults write com.apple.screencapture disable-shadow -bool true
 ## 画像の影を無効化
 defaults write com.apple.screencapture "disable-shadow" -bool "true"
 ## 保存場所
-defaults write com.apple.screencapture "location" -string "~/Google Drive/screenshot"
+defaults write com.apple.screencapture "location" -string "~/My Drive/screenshot"
 # 撮影時のサムネイル表示
 defaults write com.apple.screencapture "show-thumbnail" -bool "false"
 ## 保存形式
 defaults write com.apple.screencapture "type" -string "jpg"
 # スクリーンショットの保存形式を PNG にする
 # defaults write com.apple.screencapture type -string "png"
+# スクリーンキャプチャをクリップボードにコピー
+defaults write com.apple.screencapture target clipboard
 
+
+# Hot corner
+defaults write com.apple.dock wvous-br-corner -int 10
+defaults write com.apple.dock wvous-br-modifier -int 0
 
 # UTF-8 のみを使用する
 # defaults write com.apple.terminal StringEncodings -array 4
