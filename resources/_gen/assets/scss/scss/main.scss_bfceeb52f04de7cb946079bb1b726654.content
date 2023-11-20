@@ -7212,13 +7212,13 @@ a.text-dark:hover, a.text-dark:focus {
  **************************************************/
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 16.17px;
+  font-size: 13.86px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65; }
 
 @media screen and (min-width: 58em) {
   html {
-    font-size: 21px; } }
+    font-size: 18px; } }
 
 body {
   font-family: inherit;
@@ -8164,7 +8164,7 @@ a.summary-link {
   height: 70px;
   background: #fff;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
-  font-size: 16.17px;
+  font-size: 13.86px;
   padding: 0 1rem; }
   .navbar .nav-item {
     position: relative; }
@@ -8188,7 +8188,7 @@ a.summary-link {
         font-weight: bold !important;
         color: #2962ff !important; }
   .navbar .dropdown-menu {
-    font-size: 16.17px; }
+    font-size: 13.86px; }
   .navbar .dropdown-item.active,
   .navbar .dropdown-item-active {
     font-weight: bold;
@@ -9666,3 +9666,49 @@ div.chart {
   margin-right: auto;
   margin-bottom: 1rem;
   overflow-x: auto; }
+
+.card-simple {
+  background: #000;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 0px 0px 0px 0px; }
+
+.card {
+  margin-bottom: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: #000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-out; }
+
+.dark .card-simple {
+  background: #000;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border: 1px solid #000; }
+
+body, h1, h2, h3, h4, h5, h6, .navbar-custom {
+  font-family: Helvetica,"Sawarabi Gothic",Meiryo,"メイリオ","Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN",YuGothic,"游ゴシック",Arial,sans-serif; }
+
+.dark .card {
+  background: #0000; }
+
+.card .section-subheading {
+  font-weight: normal;
+  font-size: 14px; }
+
+.card-subtitle {
+  float: right; }
+
+.exp-company {
+  font-weight: bold !important; }
+
+.exp-title {
+  font-weight: normal; }
+
+.exp-meta {
+  float: right; }
+
+.card .card-text {
+  padding: 0; }

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Kai Katsumata 勝又 海
+title: Kai Katsumata
 
 # Full name (for SEO)
 first_name: Kai

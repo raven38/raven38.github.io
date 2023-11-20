@@ -1,0 +1,70 @@
+.card-simple {
+  background: #000;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 0px 0px 0px 0px; // 15px 20px 15px 20px;
+}
+
+
+.card {
+  margin-bottom: 0rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: #000;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: all 0.2s ease-out;
+}
+
+
+
+.dark .card-simple {
+  background: #000;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid #000;
+}
+
+
+body, h1, h2, h3, h4, h5, h6, .navbar-custom { 
+    font-family: Helvetica,"Sawarabi Gothic",Meiryo,"メイリオ","Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN",YuGothic,"游ゴシック",Arial,sans-serif; 
+}
+
+.dark .card {
+    background: #0000;
+}
+
+
+.card .section-subheading{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.card-subtitle { 
+    float: right;
+}
+
+
+.exp-company {
+    font-weight: bold !important;
+    // font-size: 24px;
+}
+
+.exp-title {
+    font-weight: normal;
+    // font-size: 0.75rem;
+}
+
+
+
+
+.exp-meta {
+    float: right;
+}
+
+
+.card .card-text {
+    padding: 0;
+    // font-size: 0.6rem;
+}
+

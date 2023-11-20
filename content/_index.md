@@ -19,7 +19,25 @@ sections:
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
+  - block: collection
+    id: publications
+    content:
+      title: 
+      text: |-
+        <h1> Recent Publications </h1>
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      count: 10
+      filters:
+        folders:
+          - publication
+#        exclude_featured: true
+    design:
+      columns: '1'
+      view: citation
   - block: experience
+    
     content:
       title: Experience
       # Date format for experience
@@ -32,20 +50,34 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Intern
-          company: Preferred Networks Inc.
+          company: Preferred Networks # Inc.
           company_url: ''
+          description: Research in human image generation and visual artifact removal.
           <!-- company_logo: org-gc -->
           location: Tokyo
           date_start: '2022-08-01'
           date_end: '2022-09-01'
         - title: Part-time Software Engineer
-          company: Idein Inc.
+          company: Idein # Inc.
           company_url: ''
           <!-- company_logo: org-x -->
           location: Tokyo
           date_start: '2017-04-01'
           date_end: '2021-04-01'
+          description: Developed face landmark detection algorithm
           <!-- description: Taught electronic engineering and researched semiconductor physics. -->
+        - title: Research Intern
+          company: SenseTime # Group Ltd.
+          location: Beijing and Tokyo
+          date_start: '2018-02-01'
+          date_end: '2018-06-01'
+          description: Research in unsupervised image-to-image translation for data augmentation
+        - title: AI Research and Development Intern
+          company: DeNA # Co., Ltd.
+          location: Tokyo
+          date_start: '2017-08-01'
+          date_end: '2017-09-01'
+          description: Research in realtime superresolution
     design:
       columns: '2'
 #  - block: collection
@@ -59,21 +91,6 @@ sections:
 #    design:
 #      columns: '2'
 #      view: card
-  - block: collection
-    id: publications
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-#        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -100,6 +117,16 @@ sections:
           url: ''
         - title: Japan Student Services Organization (JASSO) Repayment Exemption for Students with Excellent Grades --FY2022--, Type I (interest-free) scholarship (Exemption of all of loan)
           date_start: '2023-03-31'
+        - title: Microsoft Research Asia D-CORE Award
+          date_start: '2022-12-01'
+          url: ''
+        - title: Toyota/Dwango AI Scholarship
+          date_start: '2021-04-01'
+          url: ''
+        - title: JEES/Softbank AI Scholarship
+          date_start: '2020-04-01'
+          url: ''
     design:
       columns: '2'
 ---
+
