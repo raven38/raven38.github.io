@@ -37,7 +37,7 @@ education:
       institution: The University of Tokyo
       year: 2022
     - course: Bachelor of Arts in Environment and Information Studies
-      institution: The University of Tokyo
+      institution: Keio University
       year: 2020
 
 # Social/Academic Networking
