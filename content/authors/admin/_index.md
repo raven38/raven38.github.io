@@ -47,7 +47,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:katsumata@nlab.ci.i.u-tokyo.ac.jp'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/raven_38_
