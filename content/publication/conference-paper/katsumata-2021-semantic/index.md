@@ -23,7 +23,7 @@ publishDate: '2023-10-25T13:44:20.775249Z'
 publication_types:
 - paper-conference
 
-# Publication name and optional abbreviated publication name.
+# Publication name and optional abbreviated publication name.n
 publication: '*IEEE International Conference on Acoustics, Speech and Signal Processing
   (ICASSP)*'
 publication_short: ''
