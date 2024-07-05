@@ -15,7 +15,7 @@ sections:
     id: section-1
     content:
       title: News
-      text: <h3>2024</h3> Our paper "A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis" have been accepted at ECCV 2024. <br> I will attend [International Computer Vision Summer School 2024](https://iplab.dmi.unict.it/icvss2024/).  <h3>2023</h3> 3 papers have been accepeted at WACV 2024.
+      text: <h3>2024</h3> Our paper "A Compact Dynamic 3D Gaussian Representation for Real-Time Dynamic View Synthesis" have been accepted at ECCV 2024. <br> I will attend <a href="https://iplab.dmi.unict.it/icvss2024/">International Computer Vision Summer School 2024</a>.  <h3>2023</h3> 3 papers have been accepeted at WACV 2024.
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
